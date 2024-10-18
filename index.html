@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfertec</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link href="site/css/style.css" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .bg-primary {
+            background-color: #76170a;
+        }
+        .text-primary {
+            color: #76170a;
+        }
+        .bg-secondary {
+            background-color: #006ca0;
+        }
+        .text-secondary {
+            color: #006ca0;
+        }
+
+        .bg-gradient-left {
+            background-image: linear-gradient(to bottom, #76170a 30%, rgba(255, 255, 255, 0));
+        }
+
+        .bg-gradient-right {
+            background-image: linear-gradient(to bottom, #006ca0 30%, rgba(255, 255, 255, 0));
+        }
+    </style>
+</head>
+
+<body class="bg-white">
+    <div class="min-h-screen md:h-screen grid grid-rows-2 md:grid-cols-2 md:grid-rows-1">
+        <div class="relative h-full flex items-center justify-center text-white bg-contain bg-bottom bg-no-repeat"
+            style="background-image: url('site/img/vineyard.jpg');">
+            <div class="absolute w-full left-0 top-0 h-2/3 bg-gradient-left"></div>
+            <div class="relative z-10 text-center mb-20">
+                <img src="site/img/transfertec-logo-left.png" alt="Transfertec" class="mx-auto mb-20" />
+                <a href="https://transfertec.com.br/enologia" class="block mx-auto mt-6 px-6 py-3 bg-primary hover:bg-red-800 text-white uppercase rounded-xl duration-200" style="max-width: 300px;">Acessar</a>
+                <div class="mt-16 flex justify-center space-x-4">
+                    <a href="https://www.instagram.com/transfertec.enologia/" target="_blank">
+                        <img src="site/img/instagram-red.png" alt="Instagram" class="block" />
+                    </a>
+                    <a href="https://www.facebook.com/transfertec.enologia" target="_blank">
+                        <img src="site/img/facebook-red.png" alt="Facebook" class="block" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="relative h-full flex items-center justify-center text-black bg-contain bg-bottom bg-no-repeat pt-10 md:pt-0"
+            style="background-image: url('site/img/engineering-background.jpg');">
+            <div class="absolute w-full left-0 top-0 h-2/3 bg-gradient-right"></div>
+            <div class="relative z-10 text-center mb-20">
+                <img src="site/img/transfertec-logo-right.png" alt="Transfertec" class="mx-auto mb-20" />
+                <a class="block mx-auto mt-6 px-6 py-3 bg-secondary hover:bg-blue-800 text-white uppercase rounded-xl duration-200" style="max-width: 300px;">Em Breve</a>
+                <h6 class="text-secondary leading-tight mt-3">Nosso site está em construção<br>e em breve estaremos no ar.</h6>
+                <div class="mt-16 flex justify-center space-x-4">
+                    <a href="https://www.instagram.com/transfertec.engenharia_/" target="_blank">
+                        <img src="site/img/instagram-blue.png" alt="Instagram" class="block" />
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61562953547369" target="_blank">
+                        <img src="site/img/facebook-blue.png" alt="Facebook" class="block" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
